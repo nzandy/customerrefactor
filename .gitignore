@@ -3,3 +3,9 @@
 ################################################################################
 
 /App/bin/Debug
+/App/obj/Debug
+/Consumer/bin/Debug
+/Consumer/obj/Debug
+/App.Tests/bin/Debug
+/App.Tests/obj/Debug
+/packages

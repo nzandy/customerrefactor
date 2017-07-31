@@ -1,4 +1,4 @@
-namespace App
+namespace App.Enums
 {
     public enum Classification
     {

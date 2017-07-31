@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.30723.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App", "App\App.csproj", "{C0BC6C85-09A4-4F1C-B42C-D5628566B38B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Harness", "Consumer\Harness.csproj", "{D180035C-E19B-4BAB-8156-66D27D68AF1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.Tests", "App.Tests\App.Tests.csproj", "{FED46B47-86B7-4ACA-9184-512DB357DFB1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{D180035C-E19B-4BAB-8156-66D27D68AF1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D180035C-E19B-4BAB-8156-66D27D68AF1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D180035C-E19B-4BAB-8156-66D27D68AF1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FED46B47-86B7-4ACA-9184-512DB357DFB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FED46B47-86B7-4ACA-9184-512DB357DFB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FED46B47-86B7-4ACA-9184-512DB357DFB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FED46B47-86B7-4ACA-9184-512DB357DFB1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

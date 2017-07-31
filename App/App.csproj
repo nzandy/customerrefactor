@@ -43,15 +43,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Classification.cs" />
-    <Compile Include="Company.cs" />
-    <Compile Include="CompanyRepository.cs" />
-    <Compile Include="Customer.cs" />
-    <Compile Include="CustomerCreditService.cs" />
-    <Compile Include="CustomerDataAccess.cs" />
-    <Compile Include="CustomerService.cs" />
+    <Compile Include="Enums\Classification.cs" />
+    <Compile Include="Extensions\CustomerExtensions.cs" />
+    <Compile Include="Models\Company.cs" />
+    <Compile Include="Repositories\CompanyRepository.cs" />
+    <Compile Include="Models\Customer.cs" />
+    <Compile Include="Repositories\CustomerDataAccess.cs" />
+    <Compile Include="Repositories\ICompanyRepository.cs" />
+    <Compile Include="Repositories\ICustomerDataAccessStrategy.cs" />
+    <Compile Include="Repositories\ICustomerRepository.cs" />
+    <Compile Include="Repositories\SqlCustomerDataAccess.cs" />
+    <Compile Include="Services\CustomerCreditService.cs" />
+    <Compile Include="Services\CustomerService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\CustomerServiceWithInjection.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
